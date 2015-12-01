@@ -1,0 +1,69 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+#page-header {
+  background: white;
+  display: block;
+  padding: 20px 15px;
+}
+
+h1 {
+  font-size: 5em;
+  line-height: 1;
+  color: #ddd8ce;
+  text-align: center;
+}
+
+
+#features {
+  margin: 0 10%;
+}
+
+#features div {
+  float:left;}
+
+.blocks2x1 {width:100%;height:20em;background-image:url(../content/whitney.jpg);background-size:cover;vertical-align: bottom;text-align: right;}
+
+.blocks1x1 {width:50%;height:10em;background-image:url(../content/whitney.jpg);background-size:cover;vertical-align: bottom;text-align: right;}
+
+.headerImage {
+ padding: 17px; 
+ max-width: 100%;  
+ display: block; 
+ line-height: 100%;
+
+}
+
+#footer-bar {
+  background: #002649;
+  color: white;
+  text-align: center;
+  padding: 1% 2%;
+}
+
+#footer-text {
+  background: #dddbd1;
+  color: #002649;
+  text-align: center;
+  font-size: 1em;
+  padding: 2% 3%;
+}
+
+p {
+  color: #002649;
+  text-align: center;
+  font-size: 1em;
+}
+
+#footer-navigation {
+  background: #dddbd1;
+  color: #002649;
+  text-align: center;
+  font-size: 1em;
+  padding: 2% 3%;
+}
+
+}
+}
