@@ -1,6 +1,7 @@
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Serifa', sans-serif;
   font-size: 20px;
+  margin: 10%;
 }
 
 #page-header {
@@ -16,31 +17,126 @@ h1 {
   text-align: center;
 }
 
-
-#features {
-  margin: 0 10%;
+h2 {
+  font-size: 1.5em;
+  line-height: 1;
+  color: #002649;
+  text-align: left;
 }
 
-#features div {
-  float:left;}
 
-.blocks2x1 {width:100%;height:20em;background-image:url(../content/whitney.jpg);background-size:cover;vertical-align: bottom;text-align: right;}
+.blocks2x1 {
+  width:100%;
+  height:22em;
+  background-image:url(../content/whitney.jpg);
+  background-size:cover;
+  vertical-align: bottom;
+  margin-bottom: 11px;
+}
 
-.blocks1x1 {width:50%;height:10em;background-image:url(../content/whitney.jpg);background-size:cover;vertical-align: bottom;text-align: right;}
+.blurb {
+  background:white;
+  opacity: 0.85;
+  width: 41%;
+  margin: 100 auto;
+  padding: 4%;
+  vertical-align: bottom-right;
+  box-shadow: 0 0 5px rgba(0,0,0,.75);
+  float: right;
+  margin-top: 180px
+}
 
-.headerImage {
- padding: 17px; 
- max-width: 100%;  
- display: block; 
- line-height: 100%;
+.blocks1x2 {
+  width:49%;
+  height:18em;
+  background-image:url(../content/roof.jpg);
+  background-size:cover;
+  vertical-align: bottom;
+  margin-bottom: 11px;
+  float: right;
 
 }
+
+.blocks2x2 {
+  width:49%;
+  height:18em;
+  background-image:url(../content/news.jpg);
+  background-size:cover;
+  vertical-align: bottom;
+  margin-bottom: 11px;
+
+}
+
+.art1x3 {
+  width:49%;
+  height:33em;
+  background-image:url(../content/Sharedplates.jpg);
+  background-size:cover;
+  vertical-align: bottom;
+  float: left;
+  margin-bottom: 11px;
+}
+
+  .art2x3 {
+
+  width:49%;
+  height:16em;
+  background-image:url(../content/BrooklynSummer.png);
+  background-size:cover;
+  vertical-align: bottom;
+  float: right;
+  margin-bottom: 11px;
+  
+
+}
+
+.art3x3 {
+
+  width:49%;
+  height:16em;
+  background-image:url(../content/cocktails.jpg);
+  background-size:cover;
+  vertical-align: bottom;
+  margin-bottom: 11px;
+  float: right;
+}
+
+.finalblock2x1 {
+  width:100%;
+  height:20em;
+  background-image:url(../content/roofblurb.png);
+  background-size:cover;
+  vertical-align: bottom;
+  margin-bottom: 11px;
+  float: right;
+}
+
+.archive {
+   width:100%;
+  height:10em;
+  text-align: center;
+  background-color: white;
+
+  /*background-image:url(../content/archive.png);*/
+  vertical-align: center;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  float: left;
+}
+
+
+.wrapper {
+  max-width: 1280px;
+  margin: auto;
+}
+
 
 #footer-bar {
   background: #002649;
   color: white;
   text-align: center;
   padding: 1% 2%;
+  margin-top: 1200px;
 }
 
 #footer-text {
