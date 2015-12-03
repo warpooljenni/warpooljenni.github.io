@@ -53,6 +53,14 @@ h2 {
   float: right;
 }
 
+.sideimage1 {
+  width:75%;
+  height:5em;
+  background-image: url(../content/sideroof.jpg);
+  margin-bottom: 11px;
+/*  float: right;*/
+}
+
 #footer-bar {
   background: #002649;
   color: white;
